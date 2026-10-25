@@ -1,17 +1,17 @@
 class Dfinstall < Formula
   desc "Dotfiles installer and manager"
   homepage "https://github.com/sresarehumantoo/dotfiles"
-  version "2.0.0"
+  version "2.0.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/sresarehumantoo/dotfiles/releases/download/v2.0.0/dfinstall_2.0.0_darwin_arm64.tar.gz"
-      sha256 "9e36353e218cdf4b812cf6e21883d931841ebd028a2b692b84b22c39ff58473b"
+      url "https://github.com/sresarehumantoo/dotfiles/releases/download/v2.0.1/dfinstall_2.0.1_darwin_arm64.tar.gz"
+      sha256 "543f606abba648c87803fa66d28590e799326d327cdf42ba8c54e74c267a29bb"
     end
     on_intel do
-      url "https://github.com/sresarehumantoo/dotfiles/releases/download/v2.0.0/dfinstall_2.0.0_darwin_amd64.tar.gz"
-      sha256 "5275bd6c080d28b91fd54eda7dcc49798e1d162d20490009420cee84bed297ee"
+      url "https://github.com/sresarehumantoo/dotfiles/releases/download/v2.0.1/dfinstall_2.0.1_darwin_amd64.tar.gz"
+      sha256 "e566d1d7763d4531e658fd68ffb0854abe96c6afc036b1d9e38c1145201e1626"
     end
   end
 
@@ -19,12 +19,12 @@ class Dfinstall < Formula
     depends_on "git"
 
     on_arm do
-      url "https://github.com/sresarehumantoo/dotfiles/releases/download/v2.0.0/dfinstall_2.0.0_linux_arm64.tar.gz"
-      sha256 "6b0586e809f2ed8f65a303a4ae6c16f70ecbcce4bf278f28a09d74d14a2dca91"
+      url "https://github.com/sresarehumantoo/dotfiles/releases/download/v2.0.1/dfinstall_2.0.1_linux_arm64.tar.gz"
+      sha256 "d45cea73eb5c8e21a1bbef9c0e997b646493cc66d1162875b2f5bbc188a10ae0"
     end
     on_intel do
-      url "https://github.com/sresarehumantoo/dotfiles/releases/download/v2.0.0/dfinstall_2.0.0_linux_amd64.tar.gz"
-      sha256 "c29cbe64c4ecbcee356f843cbed93f9d074e99bcb5e2c0824b8a0192da92eed5"
+      url "https://github.com/sresarehumantoo/dotfiles/releases/download/v2.0.1/dfinstall_2.0.1_linux_amd64.tar.gz"
+      sha256 "6f6060bd88c8564b147778d83fa1bf5343322c7c6b369b611aab3d4dcfb40b61"
     end
   end
 
