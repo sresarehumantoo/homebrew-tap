@@ -1,17 +1,17 @@
 class Dfinstall < Formula
   desc "Dotfiles installer and manager"
   homepage "https://github.com/sresarehumantoo/dotfiles"
-  version "2.4.4"
+  version "2.4.5"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/sresarehumantoo/dotfiles/releases/download/v2.4.4/dfinstall_2.4.4_darwin_arm64.tar.gz"
-      sha256 "d65681c1070bad1a464604fca83d0bad1c2806d7155272fa5ea4209ac8e95c8e"
+      url "https://github.com/sresarehumantoo/dotfiles/releases/download/v2.4.5/dfinstall_2.4.5_darwin_arm64.tar.gz"
+      sha256 "72d17b6fc30d4be2a59668105125cff9418fc8e961449efb3998c1040865657e"
     end
     on_intel do
-      url "https://github.com/sresarehumantoo/dotfiles/releases/download/v2.4.4/dfinstall_2.4.4_darwin_amd64.tar.gz"
-      sha256 "024b26b7a005dbd94bb386472a1404bbd65e0cf2f157e3d9558be74521dbe828"
+      url "https://github.com/sresarehumantoo/dotfiles/releases/download/v2.4.5/dfinstall_2.4.5_darwin_amd64.tar.gz"
+      sha256 "31e72b45c83d7d6d34fcfd6300f30b68a0f6f3209ae0e8b98769983a549b96c2"
     end
   end
 
@@ -19,18 +19,18 @@ class Dfinstall < Formula
     depends_on "git"
 
     on_arm do
-      url "https://github.com/sresarehumantoo/dotfiles/releases/download/v2.4.4/dfinstall_2.4.4_linux_arm64.tar.gz"
-      sha256 "1af22da9cfbb964e211efec835ade8f4798e986283aa003d1a84770e1d421ecc"
+      url "https://github.com/sresarehumantoo/dotfiles/releases/download/v2.4.5/dfinstall_2.4.5_linux_arm64.tar.gz"
+      sha256 "7a950acda521a986f9320148da51cc5d6a82a0d1d97321bb0c9a95eb57dc64c3"
     end
     on_intel do
-      url "https://github.com/sresarehumantoo/dotfiles/releases/download/v2.4.4/dfinstall_2.4.4_linux_amd64.tar.gz"
-      sha256 "3e914765f35229377c4e2bd828aebbc8af3a078de0cba932acc76bbd34e1e305"
+      url "https://github.com/sresarehumantoo/dotfiles/releases/download/v2.4.5/dfinstall_2.4.5_linux_amd64.tar.gz"
+      sha256 "3b7cde3f3e8cca529058b9779ffa98d12c2c77044921fc0ea8dd5e91770f0c82"
     end
   end
 
   resource "content" do
-    url "https://github.com/sresarehumantoo/dotfiles/releases/download/v2.4.4/dfinstall-content_2.4.4.tar.gz"
-    sha256 "4e33fd1d3b631c6e5fa4b59b791e2aa22a7df7b9ec4e96385ce5dfe0edb3ac33"
+    url "https://github.com/sresarehumantoo/dotfiles/releases/download/v2.4.5/dfinstall-content_2.4.5.tar.gz"
+    sha256 "5da73ab3ac4a8a5d632a3c6181700d7166015cda63de298dbb7c84d429ee2f83"
   end
 
   def install
