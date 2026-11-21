@@ -1,7 +1,15 @@
-# homebrew-tap
+# Homebrew Tap
 
-Homebrew formulae for [dfinstall](https://github.com/sresarehumantoo/dotfiles), updated by its release workflow.
+Homebrew formulae for SREsAreHumanToo projects.
 
-```bash
-brew install sresarehumantoo/tap/dfinstall
+## Install
+
 ```
+brew tap SREsAreHumanToo/tap
+brew install <formula>
+```
+
+## Available Formulae
+
+- **dfinstall** - [dotfiles](https://github.com/sresarehumantoo/dotfiles) installer, updated by its release workflow
+- **cc-artex** - MCP tool server for autonomous pentesting with Claude Code
